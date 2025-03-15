@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
     public String repeatLimitedString(String s, int repeatLimit) {
         char[] chars = s.toCharArray();
