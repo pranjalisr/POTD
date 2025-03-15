@@ -12,7 +12,7 @@ class Solution {
                 if (freq < repeatLimit) {
                     result.append(chars[i]);
                     freq++;
-                } else {
+                } else if (freq >= repeatLimit) {
                     while (pointer >= 0 && (chars[pointer] == chars[i] || pointer > i)) {
                         pointer--;
                     }
