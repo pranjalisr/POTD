@@ -23,7 +23,7 @@ class Solution {
                         chars[i] = chars[pointer];
                         chars[pointer] = temp;
                         freq = 1;
-                    } else {
+                    } else if (pointer < 0){
                         break;
                     }
                 }
